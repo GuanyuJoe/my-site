@@ -1,12 +1,26 @@
 /* changes the background color of body */
+#gameContainer{
+  text-align: center;
+}
 
-body{
-  background-image: url("https://i.ytimg.com/vi/e0oxIbn-VMA/sddefault.jpg")
+
+#gameBoard{
+  border : 3px solid;
   
 }
 
-h1 , p{
-  border: 3px dashed purple;
-  border-radius: 20px;
-  color: purple;
+#scoreText{
+  font-family: 'Press Start 2P', monospace;
+  font-size: 100px;
+}
+
+#resetButton{
+  font-family: 'Press Start 2P', monospace;
+  font-size: 22px;
+  width: 120px;
+  height: 50 px;
+  border: 4px solid;
+  border-radius: 15 px;
+  cursor: pointer;
+  
 }
