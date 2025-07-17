@@ -1,0 +1,12 @@
+/* changes the background color of body */
+
+body{
+  background-image: url("https://i.ytimg.com/vi/e0oxIbn-VMA/sddefault.jpg")
+  
+}
+
+h1 , p{
+  border: 3px dashed purple;
+  border-radius: 20px;
+  color: purple;
+}
